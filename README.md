@@ -12,7 +12,7 @@
 	
 <br>
 
-<img align='right' src="http://mazassumnida.wtf/api/v2/generate_badge?boj=batmantwo">
+[![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=batmantwo)](https://solved.ac/batmantwo)
 
 <br>
 
