@@ -3,17 +3,18 @@
   </div>
 
 
-# Skills
+# :crystal_ball: Skills :crystal_ball:
 
 ![Java](https://img.shields.io/badge/Java-red.svg?&style=for-the-badge&logo=Java&logoColor=white)
 ![Spring](https://img.shields.io/badge/Spring-00739.svg?&style=for-the-badge&logo=Spring&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB.svg?&style=for-the-badge&logo=Python&logoColor=white)
+	
+	
+<br>
 
-[![Solved.ac
-프로필](http://mazassumnida.wtf/api/generate_badge?boj=batmantwo)](https://solved.ac/batmantwo)
+[![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=batmantwo)](https://solved.ac/batmantwo)
 
-[![Solved.ac
-프로필](http://mazassumnida.wtf/api/mini/generate_badge?boj=batmantwo)](https://solved.ac/batmantwo)
+<br>
 
-# GitHub stats
+# :computer: GitHub stats
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=bong7233&show_icons=true&theme=radical)
