@@ -13,7 +13,7 @@
 프로필](http://mazassumnida.wtf/api/generate_badge?boj=batmantwo)](https://solved.ac/batmantwo)
 
 [![Solved.ac
-프로필](http://mazassumnida.wtf/api/mini/generate_badge?boj=batmantwo)](https://solved.ac/batmantwo)
+프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj=bong)](https://solved.ac/bong)
 
 # GitHub stats
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=bong7233&show_icons=true&theme=radical)
