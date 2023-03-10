@@ -6,7 +6,7 @@
 # :crystal_ball: Skills
 
 ![Python](https://img.shields.io/badge/Python-3776AB.svg?&style=for-the-badge&logo=Python&logoColor=white)
-![Django](https://img.shields.io/badge/Django-#092E20.svg?&style=for-the-badge&logo=Django&logoColor=#092E20)
-![Celery](https://img.shields.io/badge/Celery-3776AB.svg?&style=for-the-badge&logo=Celery&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-3776AB.svg?&style=for-the-badge&logo=Docker&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-3776AB.svg?&style=for-the-badge&logo=Redis&logoColor=white)
+![Django](https://img.shields.io/badge/Django-#092E20.svg?&style=for-the-badge&logo=django&logoColor=#092E20)
+![Celery](https://img.shields.io/badge/Celery-3776AB.svg?&style=for-the-badge&logo=Python&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-3776AB.svg?&style=for-the-badge&logo=Python&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-3776AB.svg?&style=for-the-badge&logo=Python&logoColor=white)
