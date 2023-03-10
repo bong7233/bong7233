@@ -3,10 +3,10 @@
   </div>
 
 
-# :crystal_ball: Skills
+## :crystal_ball: Skills
 
-![Python](https://img.shields.io/badge/Python-3776AB.svg?&style=for-the-badge&logo=Python&logoColor=white)
-![Django](https://img.shields.io/badge/Django-3776AB.svg?&style=for-the-badge&logo=Django&logoColor=#092E20)
-![Celery](https://img.shields.io/badge/Celery-3776AB.svg?&style=for-the-badge&logo=Celery&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-3776AB.svg?&style=for-the-badge&logo=Docker&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-3776AB.svg?&style=for-the-badge&logo=Redis&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB.svg?&style=for-the-badge&logo=Python&logoColor=3776AB)
+![Django](https://img.shields.io/badge/Django-3776AB.svg?&style=for-the-badge&logo=Django&logoColor=092E20)
+![Celery](https://img.shields.io/badge/Celery-3776AB.svg?&style=for-the-badge&logo=Celery&logoColor=37814A)
+![Docker](https://img.shields.io/badge/Docker-3776AB.svg?&style=for-the-badge&logo=Docker&logoColor=2496ED)
+![Redis](https://img.shields.io/badge/Redis-3776AB.svg?&style=for-the-badge&logo=Redis&logoColor=DC382D)
