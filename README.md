@@ -6,5 +6,5 @@
 C++ / Python
 
 # Experience
-Django / Celery / Redis / AWS / Docker(Docker-compose) / MySQL
+Django / Celery / Redis / AWS / Docker(Docker-compose) / MySQL   
 Linux
