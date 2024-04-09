@@ -6,5 +6,8 @@
 C++ / Python
 
 # Experience
+Machine Learning / Caggle  
+
 Django / Celery / Redis / AWS / Docker(Docker-compose) / MySQL   
-Linux
+
+Embedded / Linux  
