@@ -3,11 +3,7 @@
   </div>
 
 # Skill 
-C++ / Python
+C# / Python
 
 # Experience
-Machine Learning / Caggle  
-
-Django / Celery / Redis / AWS / Docker(Docker-compose) / MySQL   
-
-Embedded / Linux  
+Backend - Django / Celery / Redis / AWS / Docker(Docker-compose) / MySQL   
