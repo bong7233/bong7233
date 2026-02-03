@@ -3,5 +3,5 @@
 - C#, Python, Delphi
 
 # Other Experience
-Backend - Django / Celery / Redis / AWS / Docker(Docker-compose) / MySQL
-AI - Python / ML / DL
+- Backend -> Django / Celery / Redis / AWS / Docker(Docker-compose) / MySQL  
+- DataEngineering -> Colab / ML & DL / matplolib  
