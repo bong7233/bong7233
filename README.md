@@ -1,4 +1,4 @@
-#Software Engineer 
+# Software Engineer 
 - AMR, AGV SI Software / Database
 - C#, Python, Delphi
 
