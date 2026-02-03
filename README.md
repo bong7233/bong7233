@@ -1,6 +1,7 @@
 #Software Engineer 
-( C# , C++ , ROS2, MES )
+- AMR, AGV SI Software / Database
+- C#, Python, Delphi
 
-# Experience
+# Other Experience
 Backend - Django / Celery / Redis / AWS / Docker(Docker-compose) / MySQL
-SmartFactory - C#, C++, Vision, Motion, MES, AGV
+AI - Python / ML / DL
