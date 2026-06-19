@@ -14,6 +14,7 @@
 - 포트폴리오 사이트: [FleetOps 스마트팩토리 AMR 통합 운영 콘솔](https://bongfae-production.up.railway.app/#about)
 - 링크드인: [Sangbong Lee](https://www.linkedin.com/in/%EC%83%81%EB%B4%89-%EC%9D%B4-775580203/)
 - 이메일: [batmantwo7233@gmail.com](mailto:batmantwo7233@gmail.com)
+- 휴대폰: 010-4669-7233 ( 언제든지 편하게 연락주세요 )
 
 ## 제가 집중하는 문제
 
