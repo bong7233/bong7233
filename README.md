@@ -2,7 +2,7 @@
 
 ## 로봇·스마트팩토리 현장의 문제를 소프트웨어로 풀어내는 개발자
 
-안녕하세요. C++/Qt와 Python을 중심으로 AGV/AMR, 스마트팩토리, 현장 엔지니어링 도구를 만들고 있는 이상봉입니다.
+C++/Qt와 Python을 중심으로 AGV/AMR, 스마트팩토리, 현장 엔지니어링 도구를 만드는 Field Application Engineer 입니다.
 
 제가 관심을 두는 개발은 단순히 화면을 만들거나 기능을 붙이는 일이 아니라, 실제 현장에서 생기는 문제를 소프트웨어 구조로 정리하는 일입니다. 장비와 통신하고, 상태를 모니터링하고, 알람을 분석하고, 작업자가 판단할 수 있는 화면과 리포트를 만드는 흐름에 집중하고 있습니다.
 
@@ -14,7 +14,7 @@
 - 포트폴리오 사이트: [FleetOps 스마트팩토리 AMR 통합 운영 콘솔](https://bongfae-production.up.railway.app/#about)
 - 링크드인: [Sangbong Lee](https://www.linkedin.com/in/%EC%83%81%EB%B4%89-%EC%9D%B4-775580203/)
 - 이메일: [batmantwo7233@gmail.com](mailto:batmantwo7233@gmail.com)
-- 휴대폰: 010-4669-7233 ( 언제든지 편하게 연락주세요 )
+- 휴대폰: 010-4669-7233
 
 ## 제가 집중하는 문제
 
