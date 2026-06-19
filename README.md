@@ -1,60 +1,42 @@
-# Teaching Status Monitor (C++ / Qt Widgets)
+# 이상봉 | Robot Software Engineer
 
-로봇 스테이션 티칭 진행 상태를 지도 기반으로 모니터링/관리하기 위한 학습용 데스크톱 프로그램입니다.
+C++/Qt와 Python으로 로봇·스마트팩토리 현장의 문제를 제품 형태로 풀어내는 개발자입니다.  
+AGV/AMR 제어, 장비 통신, 운영 모니터링, 현장 디버깅 도구처럼 **실제 현장에서 설명 가능하고 시연 가능한 소프트웨어**를 만드는 데 집중하고 있습니다.
 
-## 핵심 목표
-- 맵(이미지) 위에서 노드/주행로/스테이션을 직접 배치
-- 스테이션의 층별(1F/2F/3F) 티칭 상태 관리
-- 상태(완료/보완 필요/미티칭/반복 에러) 색상으로 한눈에 모니터링
-- `N회 이상 알람` 조건으로 반복 에러 후보 스테이션 필터링
-- 프로젝트 데이터 Import/Export (JSON + SQLite)
+- Robot S/W Engineer @ Zenix Robotics
+- Main interests: AGV/AMR, ROS 2, C++/Qt, Python, FAE tools, smart logistics automation
+- Location: Gyeonggi-do, Korea
+- Portfolio: [FleetOps — 스마트팩토리 AMR 통합 운영 콘솔](https://bongfae-production.up.railway.app/#about)
+- LinkedIn: [Sangbong Lee](https://www.linkedin.com/in/%EC%83%81%EB%B4%89-%EC%9D%B4-775580203/)
+- Email: [batmantwo7233@gmail.com](mailto:batmantwo7233@gmail.com)
 
-## 기술 스택
-- C++17
-- Qt 6.6 LTS (Widgets, SQL)
-- CMake
-- SQLite
+## Focus
 
-## 주요 기능
-1. **맵 기반 편집**
-   - 배경 맵 이미지(PNG/JPG) 로드
-   - 노드 추가/이동
-   - 노드 간 주행로 연결
-   - 스테이션 추가 및 최근접 노드 자동 연결
+- **AGV/AMR control software**: safety state machine, device driver structure, operator UI, diagnostics
+- **Field engineering tools**: Serial/TCP/UDP/CAN communication testing, Modbus frame handling, equipment teaching data management
+- **ROS 2 robot architecture**: lifecycle, launch/config, mock drivers, diagnostics, Gazebo/RViz simulation, Qt UI integration
+- **Smart factory operations**: fleet monitoring, VDA5050/MQTT message flow, alarm analytics, reporting, commissioning checklist
+- **Reliable delivery**: CMake, colcon, pytest, ruff, GitHub Actions, Docker, SQLite
 
-2. **층별 티칭 상태 관리**
-   - 층 선택 후 상태 변경
-   - 상태: Completed / Needs Improvement / Not Taught / Repeated Error
-   - 알람 카운트 저장
+## Featured Projects
 
-3. **모니터링 필터**
-   - 층 필터: All, 1F, 2F, 3F
-   - 상태 필터: All 포함 4개 상태
-   - 알람 필터: `Min Alarm(N)`
+| Project | What it shows | Stack |
+| --- | --- | --- |
+| [FAE Toolkit](https://github.com/bong7233/FAE_Toolkit_Bong) | 현장 엔지니어용 Serial/TCP/UDP/CAN 통신 테스트 도구와 TeachingManager. 실제 연결, 프레임 송수신, Modbus 디코딩, 장비 없이도 검증 가능한 에뮬레이터를 포함합니다. | Python, PySide6, C++17, pybind11, Serial/TCP/UDP/CAN, Modbus, ROS 2 bridge, GitHub Actions |
+| [ROS2_Prac](https://github.com/bong7233/ROS2_Prac) | Linux PC 기반 AMR 제어 프로그램을 ROS 2 구조로 재설계한 포트폴리오. mock BMS/IO/motor driver, safety monitor, base controller, system manager, Qt operator UI, Gazebo simulation을 포함합니다. | C++17, ROS 2 Jazzy, Qt 6, Gazebo, colcon, ament_cmake |
+| [FleetOps Live Portfolio](https://bongfae-production.up.railway.app/#about) | 스마트팩토리 AMR 운영 콘솔 라이브 데모. 관제, 티칭 맵, 알람 분석, VDA5050 모니터, 리포트 생성, ROI/장비 선정, 점검 체크리스트까지 한 흐름으로 보여줍니다. | Python, FastAPI, WebSocket, MQTT/VDA5050, SQLite, Pandas, Chart.js, Docker |
+| [Smart Logistics Solution Designer](https://github.com/bong7233/Solution_Test) | 고객 요구사항을 입력받아 AGV/AMR 솔루션 추천, Cycle Time/처리량 계산, 리스크 분석, 제안서 초안을 생성하는 Streamlit 포트폴리오 앱입니다. | Python, Streamlit, pandas, pydantic, plotly, SQLite, pytest |
+| [C++/Qt AGV Core](https://github.com/bong7233/Cpp_Qt_Codex) | UI와 하드웨어 벤더에 독립적인 AGV 제어 코어 설계. Serial/CAN/TCP 어댑터, 안전/모션 로직 분리, Qt 운영 UI 확장을 목표로 합니다. | C++20, CMake, Qt 6, CTest |
+| [AI Speaking Tool](https://github.com/bong7233/AI_Speaking_Tool) | 영어/중국어 말하기 훈련용 웹앱. STT 이해 확인, 답변 품질 평가, 자연화 문장 제안, TTS 복습 흐름을 구현했습니다. | Python, Streamlit, OpenAI API |
 
-4. **저장/불러오기**
-   - JSON Import/Export (세부 좌표/상태 포함)
-   - SQLite Load/Save
+## How I Work
 
-## 빌드
-```bash
-cmake -S . -B build
-cmake --build build
-```
+- 현장 장비가 없어도 **mock, simulator, emulator**로 재현 가능한 구조를 먼저 만듭니다.
+- UI, 장치 통신, 제어 로직을 분리해서 테스트와 설명이 가능한 구조를 선호합니다.
+- 단순 코드보다 **문서, 시연 흐름, 검증 방법**까지 함께 정리해 포트폴리오 완성도를 높입니다.
+- 로봇 소프트웨어와 FAE/솔루션 엔지니어링 사이를 연결하는 개발자가 되는 것이 목표입니다.
 
-> Qt 6.6 개발 환경이 설치되어 있어야 합니다. (`Qt6Config.cmake` 탐색 가능 상태)
+## Current Direction
 
-## 실행 후 기본 사용 순서
-1. `File > Load Map Image`로 배경 맵 업로드
-2. `Edit Mode > Add Node`로 노드 배치
-3. `Edit Mode > Connect Path`로 노드 간 주행로 연결
-4. `Edit Mode > Add Station`에서 스테이션 번호(예: H3-1) 입력 후 배치
-5. 우측 Dock에서 층 선택 + 상태/알람 수정
-6. 필터 조건으로 층별/상태별 진행 현황 모니터링
-7. JSON 또는 SQLite로 저장
-
-## 향후 확장 아이디어
-- 센서/설비 연동 어댑터 모듈 추가
-- 실시간 이벤트 스트림 기반 관제 패널
-- 상태 변경 이력 뷰(타임라인)
-- Linux 배포를 위한 CI 빌드 파이프라인
+스마트 물류·로봇 자동화 분야에서 C++/Qt, Python, ROS 2, Linux robot PC, 산업용 통신, 운영/진단 도구 역량을 깊게 쌓고 있습니다.  
+면접이나 기술 설명에서는 "무엇을 만들었는가"보다 **왜 이렇게 구조화했고, 현장에서는 어떻게 검증할 수 있는가**를 중심으로 설명하려고 합니다.
