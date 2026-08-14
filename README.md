@@ -1,6 +1,6 @@
 Python을 중심으로 AGV/AMR SW, 스마트팩토리, 현장 엔지니어링 도구를 개발합니다.
 
-현재는 로봇 소프트웨어 엔지니어로 일하며, AGV/AMR 제어 구조, 장비 통신, 운영 UI, ROS 2, FAE/솔루션 엔지니어링 도구를 제작 합니다.
+현재는 로봇 소프트웨어 엔지니어로 일하며, AGV/AMR 제어 구조, 장비 통신, 운영 UI, ROS 2, 솔루션 엔지니어링 도구를 제작 합니다.
 
 - 포지션 : 로봇 애플리케이션 엔지니어
 - 분  야 : AGV/AMR/RobotArm, ROS, C++, Python, 스마트팩토리, 물류 자동화
@@ -65,24 +65,7 @@ AI Tool이 작성한 모든 코드를 리팩토링하며 학습목적으로도 �
 
 ---
 
-### 3. Ros_Copilot
+### 3. ETC
 
-레포지토리: [Ros_Copilot](https://github.com/bong7233/Ros_Copilot)
-
-AI 스택(RAG / AI Agent / LLM Wiki) 을 한 프로젝트 안에서 동시에 증명하는 것을 목표로 합니다. LLM × Robotics, embodied agent를 제작합니다.
-
-Gazebo 시뮬레이션 위에서 돌아가는 ROS2 모바일 로봇을 두고, 자연어로 질문하고 · 명령하고 · 문서화하는 시스템입니다.
-
-
-- 로봇: ROS2 (Humble/Jazzy), Nav2, Gazebo, tf2, colcon
-- 언어: C++17 (rclcpp), Python 3.10+ (rclpy)
-- LLM: Claude API (Opus / Sonnet)
-- RAG: 임베딩 + 벡터DB (pgvector 또는 Chroma)
-
----
-
-### 4. ETC
-
-로봇 자체 제작, 조립, ROS 프로그래밍, 관제시스템 개발 프로젝트를 진행중이며
-추후 순차적 공개 예정입니다.
+로봇 자체 제작, 조립, ROS 프로그래밍, 관제시스템 개발 프로젝트를 진행중이며 순차 공개 예정입니다.
 
