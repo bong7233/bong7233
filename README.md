@@ -32,7 +32,7 @@ AI Tool이 작성한 모든 코드를 리팩토링하며 학습목적으로도 �
 
 ### 1. FleetOps 스마트팩토리 AMR 통합 운영 콘솔
 
-라이브 데모: 임시 비활성화
+라이브 데모: [FMS](https://bongfae-production.up.railway.app/#fleet)
 
 가상의 스마트팩토리에서 운영되는 AMR fleet을 모니터링하고, 알람을 분석하고, VDA5050 메시지를 확인하고, 고객 보고서와 제안 자료를 생성하는 통합 웹 콘솔입니다.
 
